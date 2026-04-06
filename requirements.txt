@@ -38,3 +38,6 @@ tqdm
 regex
 urllib3
 certifi
+
+torch
+torchvision
