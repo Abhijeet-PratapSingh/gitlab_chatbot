@@ -18,6 +18,6 @@ venv/
 hf_history.py
 hf.py
 
-ingest_checkpoint.py
+ingest_checkpoint.json
 
 chroma_db/
