@@ -29,7 +29,7 @@ def load_vectorstore():
     vs = Chroma(
         persist_directory=local_dir,
         collection_name="gitlab_handbook",
-        collection_metadata={"hnsw:space": "cosine"},  # matches your index settings
+        collection_metadata={"hnsw:space": "cosine"},
         embedding_function=get_embeddings(),
     )
     return vs
