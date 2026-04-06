@@ -98,7 +98,7 @@ CROSS_ENCODER_MODEL = os.getenv(
 # LLM settings
 LLM_PROVIDER   = os.getenv("LLM_PROVIDER", "huggingface")
 HF_TOKEN = st.secrets.get("HF_TOKEN", "")
-HF_MODEL = os.getenv("HF_MODEL", "mistralai/Mistral-7B-Instruct-v0.3")
+HF_MODEL = os.getenv("HF_MODEL", "meta-llama/Meta-Llama-3-8B-Instruct")
 
 # Limit response length to avoid rambling
 MAX_NEW_TOKENS = int(os.getenv("MAX_NEW_TOKENS", 256))
