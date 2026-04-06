@@ -1,0 +1,40 @@
+streamlit
+python-dotenv
+
+# LangChain ecosystem
+langchain
+langchain-community
+langchain-huggingface
+
+# Vector DB
+chromadb
+
+# Hugging Face
+huggingface-hub
+sentence-transformers
+
+# ML / core deps
+numpy
+scikit-learn
+pydantic>=2
+protobuf
+tiktoken
+
+# Scraping
+requests
+beautifulsoup4
+markdownify
+lxml
+html5lib
+
+# Playwright (optional)
+playwright
+
+# NLP
+nltk
+
+# Utils
+tqdm
+regex
+urllib3
+certifi

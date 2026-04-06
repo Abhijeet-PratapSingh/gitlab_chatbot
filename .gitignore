@@ -1,0 +1,23 @@
+# Secrets & environment
+.streamlit/secrets.toml
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+
+# Logs
+*.log
+
+hf_history.py
+hf.py
+
+ingest_checkpoint.py
+
+chroma_db/
