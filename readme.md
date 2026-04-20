@@ -6,12 +6,6 @@ Live App: https://handbook-rag-chatbot.streamlit.app
 
 ---
 
-## App UI
-
-![App Screenshot](assets/Screenshot.png)
-
----
-
 ## Features
 
 - **Chat UI** - Clean interface with sidebar chat history
